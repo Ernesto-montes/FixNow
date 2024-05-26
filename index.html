@@ -54,28 +54,7 @@
         <nav>
             <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <div class="header">
-            <div class="logo"></div>
-            <div class="user-icon" id="userIcon">
-                
-            </div>
-            <div class="auth-dropdown" id="authDropdown">
-                <button id="registerButton">Registrar</button>
-                <button id="loginButton">Iniciar Sesión</button>
-            </div>
-        </div>
-        
-        <div id="authModal" class="modal">
-            <div class="modal-content">
-                <span id="closeModal" class="close">&times;</span>
-                <div id="authForm"></div>
-            </div>
-        </div>
     
-        <script src="script.js"></script>
-    </body>
-    </html>
             <img src="https://th.bing.com/th/id/OIP.w2G7zmiR8wRrARFPzf0-bgHaHa?w=183&h=183&c=7&r=0&o=5&pid=1.7"
          alt="Reparación de Teléfonos" width="400" height="200">
             <ul>
@@ -89,8 +68,8 @@
 
     <section id="inicio">
         <h2>Bienvenido a nuestro sitio de reparaciones de teléfonos</h2>
-        <img src="https://th.bing.com/th/id/OIP.c_FTz6PNSDk1IHjVw3NGVwHaE8?w=251&h=180&c=7&r=0&o=5&pid=1.7"
-         alt="Reparación de Teléfonos" width="350">
+        <marquee behavior= alternate>   <img src="https://th.bing.com/th/id/OIP.c_FTz6PNSDk1IHjVw3NGVwHaE8?w=251&h=180&c=7&r=0&o=5&pid=1.7"
+         alt="Reparación de Teléfonos" width="350"> </marquee>
         <p>Dale vida a tu celular
             <br>
             <br>
@@ -234,6 +213,36 @@ function enviarWhatsApp() {
     <footer>
         <p>Derechos de autor &copy; 2024 Reparaciones de Teléfonos</p>
     </footer>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón de Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .instagram-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+            background-size: cover;
+            border-radius: 50%;
+            z-index: 1000;
+            cursor: pointer;
+        }
+        .instagram-button:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botón de Instagram -->
+    <a href="https://www.instagram.com/fixnow_emr?igsh=dmhiM3RscmZyZzQ2&utm_source=qr" target="_blank" class="instagram-button"></a>
+</body>
+</html>
+
 </body>
 </html>
